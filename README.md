@@ -5,23 +5,23 @@
 
 cp [sh](/sh) to path: /usr/share/X11/xkb/symbols
 
-**Adding xml rules to /usr/share/X11/xkb/rules/evdev.xml**
+**Adding xml rules to /usr/share/X11/xkb/rules/evdev.xml **
 ==================================================
-
-`    
+``
 <layout>
-  <configItem>
-    <name>sh</name>
-    <shortDescription>sh</shortDescription>
-    <description>Shan</description>
-    <languageList>
-      <iso639Id>shn</iso639Id>
-    </languageList>
-  </configItem>
+      <configItem>
+        <name>sh</name>
+        
+        <shortDescription>sh</shortDescription>
+        <description>Shan</description>
+        <languageList>
+          <iso639Id>shn</iso639Id>
+        </languageList>
+      </configItem>
+
 </layout>
-`
+``
 
 
 **example**
 [evdev.xml](/evdev.xml)
-
