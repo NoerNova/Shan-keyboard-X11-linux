@@ -11,17 +11,13 @@ cp [sh](/sh) to path: /usr/share/X11/xkb/symbols
 <layout>
       <configItem>
         <name>sh</name>
- 
         <shortDescription>sh</shortDescription>
         <description>Shan</description>
         <languageList>
           <iso639Id>shn</iso639Id>
         </languageList>
       </configItem>
-
 </layout>
 `
-
-
 **example**
 [evdev.xml](/evdev.xml)
