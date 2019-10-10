@@ -25,3 +25,5 @@ cp [sh](/sh) to path: /usr/share/X11/xkb/symbols
 
 **example**
 [evdev.xml](/evdev.xml)
+
+layout base on panglong keyboard by Sai Tawng Pha
