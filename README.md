@@ -23,6 +23,8 @@ cp [sh](/sh) to path: /usr/share/X11/xkb/symbols
 
 ```
 
+**Shan language has include in [ISO639-2](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) standard [id 399](https://www.loc.gov/standards/iso639-2/php/langcodes_name.php?code_ID=399) codes**
+
 **example**
 [evdev.xml](/evdev.xml)
 
