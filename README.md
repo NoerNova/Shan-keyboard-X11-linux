@@ -7,11 +7,11 @@ cp [sh](/sh) to path: /usr/share/X11/xkb/symbols
 
 **Adding xml rules to /usr/share/X11/xkb/rules/evdev.xml **
 ==================================================
-``
+`
 <layout>
       <configItem>
         <name>sh</name>
-        
+ 
         <shortDescription>sh</shortDescription>
         <description>Shan</description>
         <languageList>
@@ -20,7 +20,7 @@ cp [sh](/sh) to path: /usr/share/X11/xkb/symbols
       </configItem>
 
 </layout>
-``
+`
 
 
 **example**
