@@ -2627,7 +2627,7 @@
         </variant>
       </variantList>
     </layout>
-
+<!--- ######################## Mark for adding rules for shan ################################## -->
     <layout>
       <configItem>
         <name>sh</name>
@@ -2640,7 +2640,7 @@
       </configItem>
 
     </layout>
-
+<!--- ######################## Mark for adding rules for shan ################################## -->
     <layout>
       <configItem>
         <name>ca</name>
