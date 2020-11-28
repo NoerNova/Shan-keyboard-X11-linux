@@ -3,9 +3,15 @@
 
 ### **Setup**
 
+==================================================
+sudo ./install.sh
+==================================================
+
+### **Manual**
+
 cp [sh](/sh) to path: /usr/share/X11/xkb/symbols
 
-**Adding xml rules to /usr/share/X11/xkb/rules/evdev.xml**
+#### **Adding xml rules to /usr/share/X11/xkb/rules/evdev.xml**
 ==================================================
 
 ``` xml
