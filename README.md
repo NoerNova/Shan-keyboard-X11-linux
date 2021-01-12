@@ -51,7 +51,7 @@ reboot may require before **keyboard layout setting**
 </layout>
 ```
 
----
+
 
 insert into 
 ```xml
@@ -59,7 +59,7 @@ insert into
   ...
 </layoutList>
 ```
----
+
 
 **example**
 [evdev.xml](/evdev.xml#L2631-L2642) (between line 2631 - 2642)
