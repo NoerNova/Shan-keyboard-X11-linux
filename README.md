@@ -48,13 +48,18 @@ reboot may require before **keyboard layout setting**
           <iso639Id>shn</iso639Id>
         </languageList>
       </configItem>
-</layout>```
+</layout>
+```
 
-into 
+---
+
+insert into 
 ```xml
 <layoutList>
-...
-</layoutList>```
+  ...
+</layoutList>
+```
+---
 
 **example**
 [evdev.xml](/evdev.xml#L2631-L2642) (between line 2631 - 2642)
