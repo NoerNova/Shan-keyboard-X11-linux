@@ -6,7 +6,7 @@ echo "Copy fonts from: $fonts_dir/fonts"
 find_command="find \"$fonts_dir/fonts\" \( -name '*.[o,t]tf' -or -name '*.pcf.gz' \) -type f -print0"
 
 system_font_dir="$HOME/.local/share/fonts"
-if [! -d "system_font_dir" ]; then
+if ! [ -d "system_font_dir" ]; then
     mkdir -p $system_font_dir
     echo "Fonts folder created ."
 fi

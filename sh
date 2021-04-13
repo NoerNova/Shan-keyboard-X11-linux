@@ -24,7 +24,7 @@ xkb_symbols "basic" {
     key <AD06> { [      U1015,      U107F,            y,           Y ] };
     key <AD07> { [      U1075,      U1077,            u,           U ] };
     key <AD08> { [      U1004,      U2800,            i,           I ] };
-    key <AD09> { [      U101D,      U101E,            o,           O ] };
+    key <AD09> { [      U101E,      U101D,            o,           O ] };
     key <AD10> { [      U107A,      bracketleft,            p,           P ] };
     key <AD11> { [      U1081,      bracketright,  bracketleft,   braceleft ] };
     key <AD12> { [      quotedblleft,      quotedblright, bracketright,  braceright ] };

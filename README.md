@@ -18,51 +18,12 @@ Shan language has include in [ISO639-2](https://en.wikipedia.org/wiki/List_of_IS
 
 ----------------------------------------------------
 ### Setup
-this bash script will copy [sh (xkb_symbols) file](/sh) to the path: /usr/share/X11/xkb/symbols and replace [evdev.xml](/evdev.xml) file in path: /usr/share/X11/xkb/rules/evdev.xml
+this bash script will copy [sh (xkb_symbols) file](/sh) to the path: /usr/share/X11/xkb/symbols and edit [evdev.xml](/evdev.xml) file in path: /usr/share/X11/xkb/rules/evdev.xml
 
-**notice** always backing up the original evdev.xml file
+**notice** You may need to backup the original evdev.xml file locate in /usr/share/X11/xkb/rules/evdev.xml
 
 
 ```sudo chmod +x install.sh```
 ```sudo ./install.sh```
 
-reboot may require before **keyboard layout setting**
-
-----------------------------------------------------
-
-### Manual install
-
-1. copy [sh](/sh) layout file to path: /usr/share/X11/xkb/symbols
-  
-```sudo cp sh /usr/share/X11/xkb/symbols/```
-
-1. Adding this xml rules to /usr/share/X11/xkb/rules/evdev.xml
-
-```xml 
-<layout>
-      <configItem>
-        <name>sh</name>
-        <shortDescription>sh</shortDescription>
-        <description>Shan</description>
-        <languageList>
-          <iso639Id>shn</iso639Id>
-        </languageList>
-      </configItem>
-</layout>
-```
-
-
-
-insert into 
-```xml
-<layoutList>
-  ...
-</layoutList>
-```
-
-
-**example**
-[evdev.xml](/evdev.xml#L2631-L2642) (between line 2631 - 2642)
-
-reboot may require before **keyboard layout setting**
-
+reboot may require to use shn layout
