@@ -31,12 +31,33 @@ this bash script will copy [sh (xkb_symbols) file](/sh) to the path: /usr/share/
 
 *reboot or logout may require to use shn layout*
 
-#### Method 2. git clone this source
-- Downloads [panglong-keyboard_1.0_all.deb](https://github.com/NoerNova/Shan-keyboard-X11-linux/releases/download/1.0/panglong-keyboard_1.0_all.deb)
-- ```sudo dpkg -i panglong-keyboard_1.0_all.deb```
+#### Method 2. *.deb (Debian Package)
+- Downloads [panglong-keyboard_1.1_all.deb](https://github.com/NoerNova/Shan-keyboard-X11-linux/releases/download/1.1/panglong-keyboard_1.1_all.deb)
+- ```sudo dpkg -i panglong-keyboard_1.1_all.deb```
 
 *reboot or logout may require to use shn layout*
 
+----------------------------------------------------
+### Uninstall
+
+#### Incase installed with method 1. git clone this source
+- git clone https://github.com/NoerNova/Shan-keyboard-X11-linux.git
+- locate to ```Shan-keyboard-X11-linux/``` directory
+- ```sudo chmod +x uninstall.sh```
+```sudo ./uninstall.sh```
+
+this bash script will remove [sh (xkb_symbols) file](/sh) from the path: /usr/share/X11/xkb/symbols and edit [evdev.xml](/evdev.xml) file in path: /usr/share/X11/xkb/rules/evdev.xml
+
+**notice** You may need to backup the original evdev.xml file locate in /usr/share/X11/xkb/rules/evdev.xml
+
+*reboot or logout may require to fully purge shn layout*
+
+#### Incase installed with method 2. *.deb (Debian Package)
+- ```sudo dpkg -r panglongshankeyboard```
+
+*reboot or logout may require to fully purge shn layout*
+
 ---
+
 ## License
 Apache 2.0
