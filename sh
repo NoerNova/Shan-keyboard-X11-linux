@@ -42,7 +42,7 @@ xkb_symbols "basic" {
     key <AC11> { [      U108A,      U109E                           ] }; //ႊ ,႞
 
     key <AB01> { [      U107D,       U107E,           z,           Z ] }; //ၽ, ၾ
-    key <AB02> { [      U1011,       U2800,           x,           X ] }; //ထ, ꩪ
+    key <AB02> { [      U1011,       UAA6A,           x,           X ] }; //ထ, ꩪ
     key <AB03> { [      U1076,       U2800,           c,           C ] }; //ၶ, ꧠ
     key <AB04> { [      U101C,       U2800,           v,           V ] }; //လ, ꩮ
     key <AB05> { [      U1087,       U1086,           b,           B ] }; //ႇ, ႆ
