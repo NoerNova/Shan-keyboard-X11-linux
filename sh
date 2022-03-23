@@ -43,8 +43,8 @@ xkb_symbols "basic" {
 
     key <AB01> { [      U107D,       U107E,           z,           Z ] }; //ၽ, ၾ
     key <AB02> { [      U1011,       UAA6A,           x,           X ] }; //ထ, ꩪ
-    key <AB03> { [      U1076,       U2800,           c,           C ] }; //ၶ, ꧠ
-    key <AB04> { [      U101C,       U2800,           v,           V ] }; //လ, ꩮ
+    key <AB03> { [      U1076,       UA9E0,           c,           C ] }; //ၶ, ꧠ
+    key <AB04> { [      U101C,       UAA6E,           v,           V ] }; //လ, ꩮ
     key <AB05> { [      U1087,       U1086,           b,           B ] }; //ႇ, ႆ
     key <AB06> { [      U1022,       U2800,           n,           N ] }; //ဢ
     key <AB07> { [      U1062,       U1083,           m,           M ] }; //ၢ, ႃ
