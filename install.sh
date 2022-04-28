@@ -36,7 +36,7 @@ if [ -f $(pwd)/fontInstall/install-fonts.sh ];
 then
     echo -e "\nCopying fonts ..."
     sudo chmod +x $(pwd)/fontInstall/install-fonts.sh
-    sudo ./$(pwd)/fontInstall/install-fonts.sh
+    sudo bash $(pwd)/fontInstall/install-fonts.sh
 else
     echo -ne "\n${yellow}Warning, ${NC}Something wrong with fonts directory, please re-download and try again later"
 fi

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VERSION=1.1
-fonts_dir=$(pwd)
+fonts_dir=$(pwd)/fontInstall
 echo "Copy fonts from: $fonts_dir/fonts"
 
 find_command="find \"$fonts_dir/fonts\" \( -name '*.[o,t]tf' -or -name '*.pcf.gz' \) -type f -print0"

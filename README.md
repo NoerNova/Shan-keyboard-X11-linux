@@ -1,4 +1,4 @@
-## Custom [Shan](https://en.wikipedia.org/wiki/Shan_people) language xkb, X11 keyboard for Debian/Linux (Unicode)
+## Custom [Shan](https://en.wikipedia.org/wiki/Shan_people) language xkb, X11 keyboard for Debian and other Linux distro (Unicode)
 
 This is unofficial custom xkb, X11 keyboard for shan typing base on "panglong keyboard" layout.
 
@@ -15,6 +15,7 @@ Shan language has include in [ISO639-2](https://en.wikipedia.org/wiki/List_of_IS
 - [x] Debian 10.x
 - [x] Kali Linux
 - [x] Ubuntu  
+- [x] Arch Linux
 
 ----------------------------------------------------
 ### Install
