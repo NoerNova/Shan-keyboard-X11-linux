@@ -11,9 +11,9 @@ echo -e "\nInstalling ..."
 # copy shan X11 xkb symbols to /usr/share/X11/xkb.symbols/
 echo -e "\nCopying Shan's X11 xkb symbols ... "
 
-if [ -f "$(pwd)/sh" ]; 
+if [ -f "$(pwd)/shn" ]; 
 then
-    sudo cp $(pwd)/sh /usr/share/X11/xkb/symbols/
+    sudo cp $(pwd)/shn /usr/share/X11/xkb/symbols/
 else
     echo -ne "\n${red}Error, ${NC}Something wrong with xkb symbols, please re-download and try again"
 fi
@@ -22,7 +22,7 @@ fi
 echo -e "\nEditing evdev.xml rules ... "
 
 # Shan's rules
-RULES="<layout><configItem><name>sh</name><shortDescription>sh</shortDescription><description>Shan</description><languageList><iso639Id>shn</iso639Id></languageList></configItem></layout>"
+RULES="<layout><configItem><name>shn</name><shortDescription>shn</shortDescription><description>Shan</description><languageList><iso639Id>shn</iso639Id></languageList></configItem></layout>"
 
 C=$(echo $RULES | sed 's/\//\\\//g')
 
